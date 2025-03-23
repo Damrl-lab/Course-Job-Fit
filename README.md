@@ -36,9 +36,9 @@ This repository contains the datasets, code, and analysis for the research descr
   - `MPNet_similarities`
 - Purpose: Text-to-embedding conversion utilities for semantic analysis
 
-**Analysis:**
+**Analysis And Course Rankings:**
 - Location: 
-  - `Compare Models` (Course ranking analysis)
+  - `Compare Models` (Course rankings for each field)
   - `analyze_top_bottom_courses` (Detailed course analysis including:)
     - Keyword extraction
     - Core vs. elective course comparison

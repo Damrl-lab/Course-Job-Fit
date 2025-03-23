@@ -10,7 +10,7 @@ This repository contains the datasets, code, and analysis for the research descr
 **Job Descriptions:**
 - Location: `Cleaned Datasets (100k jobs)`
 - Contents: Organized collections of job descriptions across multiple computing domains:
-  - Computer Science (CS)
+  - Cyber Security (CS)
   - Software Engineering (SWE)
   - Data Science (DS)
   - Information Technology (IT)

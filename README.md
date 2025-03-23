@@ -1,15 +1,50 @@
-# course-job-fit
-The Jobs with descriptions can be found in Cleaned Datasets (100k jobs) where you have CS, SWE, DS, IT, PM Jobs.
-All jobs (with and without description) can be found in Unfiltered Data (200k jobs) (this might have some duplicate postings where the cleaned jobs are all unique)
-The course syllabi can be found in Cleaned Datasets (for easy to use excel file) or in all_courses, core_courses, elective courses (for actual PDF postings)
+# Course-Job Fit Repository
 
-Job Fetching Code can be found in Fetch Jobs 
-The code for the transformer (converting text so embeddings) are called BGE,e5,SBERT,GTE,MPNet_similarietrs 
+## Overview
+This repository contains the datasets, code, and analysis for the research described in "Course-Job Fit: Understanding the Contextual Relationship Between Computing Courses and Employment Opportunities" (Kverne et al., 2025).
 
-Course Rankings can be found in Compare Models
-Analysis of courses (like key words, core vs elective, high paying jobs) can be found in analyze_top_bottom_courses
+## Repository Structure
 
-Cite our paper:
+### Datasets
+
+**Job Descriptions:**
+- Location: `Cleaned Datasets (100k jobs)`
+- Contents: Organized collections of job descriptions across multiple computing domains:
+  - Computer Science (CS)
+  - Software Engineering (SWE)
+  - Data Science (DS)
+  - Information Technology (IT)
+  - Project Management (PM)
+
+**Course Information:**
+- Location: 
+  - `Cleaned Datasets` (Excel format for convenient analysis)
+  - `all_courses`, `core_courses`, `elective_courses` (Original PDF syllabi)
+
+### Code Modules
+
+**Data Collection:**
+- Location: `Fetch Jobs`
+- Purpose: Scripts and utilities for automated job description collection
+
+**Transformer Models:**
+- Location: Various similarity modules:
+  - `BGE_similarities`
+  - `e5_similarities`
+  - `SBERT_similarities`
+  - `GTE_similarities`
+  - `MPNet_similarities`
+- Purpose: Text-to-embedding conversion utilities for semantic analysis
+
+**Analysis:**
+- Location: 
+  - `Compare Models` (Course ranking analysis)
+  - `analyze_top_bottom_courses` (Detailed course analysis including:)
+    - Keyword extraction
+    - Core vs. elective course comparison
+    - Correlation with high-compensation employment opportunities
+
+## Citation
+When using this repository or referencing this work, please cite:
 Christopher L. Kverne, Federico Monteverdi, Agoritsa Polyzou, Christine Lisetti, Janki Bhimani
-“Course-Job Fit: Understanding the Contextual Relationship Between CS Courses and Employment
-Opportunities”
+“Course-Job Fit: Understanding the Contextual Relationship Between Computing Courses and Employment Opportunities”
